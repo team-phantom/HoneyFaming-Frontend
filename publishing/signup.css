@@ -1,0 +1,127 @@
+/*기타*/
+html{overflow-x:hidden;}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.line {
+    width: 1920px;
+    height: 0;
+    border: solid 1px #e7e7e7;
+}
+.container  {
+    width: 580px;
+    margin: 0 auto;
+}
+/*기타*/
+/*헤더부분*/
+header {
+    display: flex;
+    align-items: center;
+    width: 1920px;
+    height: 120px;
+}
+header .header_logo {
+    margin-left: 30px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+header .header_logo img{
+    width: 80px;
+    height: 80px;
+}
+header .header_title {
+    margin-left: 20px;
+    width: 404px;
+    height: 44px;
+    font-family: NanumSquare;
+    font-size: 40px;
+    line-height: 1.13;
+    text-align: left;
+    color: #ffd600;
+}
+/*헤더부분*/
+/*섹션부분*/
+.section_form {
+    margin-top: 80px;
+}
+.section_form .section_form-logo {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+.section_form .section_form-logo img{
+    width: 150px;
+    height: 150px;
+}
+.section_form .section_form-description {
+    margin: 0 auto;
+    width: 336px;
+    height: 72px;
+    font-family: NanumSquare;
+    font-size: 24pNanumSquare;
+    font-size: 24px;
+    line-height: 1.88;
+    text-align: center;
+    color: #000000;
+}
+.section_form .section_form-description-top {
+    font-size: 20px;
+}
+.section_form .section_form-description-bottom {
+    font-weight: bold;
+    font-size: 24px;
+}
+.section_form-content {
+    margin-top: 88px;
+}
+.section_form-content .section_form-content-title {
+    width: 311px;
+    height: 44px;
+    font-family: NanumSquare;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.13;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 66px;
+} 
+.section_input-field {
+    margin-bottom: 40px;
+}
+.section_input-button {
+    width: 580px;
+    height: 80px;
+    background-color: #ededed;
+    font-size: 18px;
+    font-family: NanumSquare;
+    border: none;
+    color: #b3b3b3;
+    margin-bottom: 220px;
+}
+#section_input-text {
+    height: 22px;
+    font-family: NanumSquare;
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 8px;
+}
+#section_input {
+    width: 580px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 1px #e8e8e8;
+    background-color: #ffffff;
+    font-family: NanumSquare;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+    padding: 30px 0px 30px 40px;
+}
+/*섹션부분*/
