@@ -23,24 +23,25 @@ header {
     display: flex;
     align-items: center;
     width: 1920px;
-    height: 120px;
+    height: 100px;
 }
 header .header_logo {
     margin-left: 30px;
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 header .header_logo img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
 }
 header .header_title {
     margin-left: 20px;
     width: 404px;
     height: 44px;
     font-family: NanumSquare;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.13;
     text-align: left;
     color: #ffd600;
@@ -92,7 +93,7 @@ header .header_title {
     margin-bottom: 66px;
 } 
 .section_input-field {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .section_input-button {
     width: 580px;
@@ -102,7 +103,7 @@ header .header_title {
     font-family: NanumSquare;
     border: none;
     color: #b3b3b3;
-    margin-bottom: 220px;
+    margin-bottom: 100px;
 }
 #section_input-text {
     height: 22px;
@@ -122,6 +123,14 @@ header .header_title {
     font-size: 18px;
     text-align: left;
     color: #000000;
-    padding: 30px 0px 30px 40px;
+    padding: 10px 0px 10px 40px;
+}
+.warring-text {
+    width: 187px;
+    height: 13px;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #ff0000;
+    font-family: NanumSquare;
 }
 /*섹션부분*/
