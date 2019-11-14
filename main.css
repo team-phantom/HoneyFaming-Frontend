@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 4;
+}
+
+nav {
+  z-index: 10;
+  background: #ffffff;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+#logoBar {
+  width: 160px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  z-index: 10;
+  border-right: 3px gray;
+}
+
+#mainLogo {
+  width: 75px;
+  height: 75px;
+}
+
+#logoTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffd600;
+  font-family: "NanumSquareEB";
+}
+
+#sideBar {
+  width: 160px;
+  height: 1080px;
+  background-color: #ffffff;
+  border: none;
+  /* opacity: 0.9;
+  box-shadow: 3px 0px 6px 0px rgba(0, 0, 0, 0.16); */
+  border-right: 2px #ececec solid;
+  z-index: 5;
+}
+
+.search-input {
+  min-width: 780px;
+  height: 45px;
+  border-radius: 40px;
+  border: solid 3px #ffd600;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  margin-left: 200px;
+}
+
+.inputBox {
+  width: 680px;
+  height: 40px;
+  border: none;
+  padding: 0px 25px 0px 0px;
+  outline: none;
+  font-size: 18px;
+}
+
+.searchIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-wrapper {
+  margin-right: 100px;
+  min-width: 220px;
+}
+
+.personal-info {
+  width: 40px;
+  height: 40px;
+  padding-left: 30px;
+}
