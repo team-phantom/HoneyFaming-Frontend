@@ -8,7 +8,6 @@ header {
   height: 120px;
   background-color: #ffffff;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: fixed;
   opacity: 0.9;
@@ -16,8 +15,8 @@ header {
 }
 
 #logoBar {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +27,7 @@ header {
 }
 
 #sideBar {
-  width: 180px;
+  width: 130px;
   height: 1080px;
   background-color: #ffffff;
   border-right: 1px #ececec solid;
@@ -36,6 +35,10 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: fixed;
+}
+
+#category {
 }
 
 #mainLogo {
@@ -44,7 +47,7 @@ header {
 }
 
 #logoTitle {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -83,7 +86,7 @@ header {
 }
 
 .iconWrapper {
-  margin-right: 100px;
+  margin-left: 230px;
   min-width: 220px;
 }
 
