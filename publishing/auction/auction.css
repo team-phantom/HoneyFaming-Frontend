@@ -1,0 +1,254 @@
+/* 공통 */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#square {
+    margin-right: 20px;
+    background-color: #ffd600;
+    display: inline-block;
+}
+#auctionItem {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #ffff8d;
+}
+#auctionItemBox {
+    width: 300px;
+    height: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+}
+#auctionItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}
+#auctionItem img {
+    width: 200px;
+    height: 200px;
+}
+#auctionButton {
+    cursor: pointer;
+    border: none;
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #222222;
+    font-family: NanumSquare;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+}
+#auctionLink {
+    font-weight: bold;
+    font-family: NanumSquare;
+    font-size: 20px;
+    width: 320px;
+    text-align: left;
+    margin-top: 20px;
+}
+#itemName {
+    margin-top: 20px;
+    width: 320px;
+    text-align: left;
+    font-family: NanumSquare;
+    font-size: 26px;
+    font-weight: lighter;
+}
+#price {
+    width: 320px;
+    text-align: left;
+    margin-top: 20px;
+    font-family: NanumSquare;
+    font-weight: bold;
+    font-size: 28px;
+    color: #ff0000;
+}
+#seeAllButton {
+    display: block;
+    margin: 120px auto 260px auto;
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #ffd600;
+    font-family: NanumSquare;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+}
+/* 공통 */
+/* 헤더 */
+header {
+    top: 0;
+    left: 0;
+    float: left;
+    width: 1790px;
+    height: 120px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  }
+  
+  #logoBar {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-right: 3px gray;
+    display: inline-flex;
+  }
+  
+  #sideBar {
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 1080px;
+    background-color: #ffffff;
+    border-right: 1px #ececec solid;
+    z-index: 20;
+    float: left;
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #mainLogo {
+    width: 75px;
+    height: 75px;
+  }
+  
+  #logoTitle {
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffd600;
+    font-family: "NanumSquareEB";
+  }
+  
+  .searchInput {
+    min-width: 780px;
+    height: 45px;
+    border-radius: 40px;
+    border: solid 3px #ffd600;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    margin-left: 200px;
+  }
+  
+  .inputBox {
+    width: 680px;
+    height: 40px;
+    border: none;
+    padding: 0px 25px 0px 0px;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  .searchIcon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .iconWrapper {
+    float: right;
+    margin-left: 230px;
+    width: 220px;
+  }
+  
+  .personalInfo {
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
+  }
+/* 헤더 */
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.auction_Main {
+    margin-left: 325px;
+    margin-top: 200px;
+    clear: both;
+}
+.auctionTitle {
+    margin-bottom: 40px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.auctionTitle img {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+}
+.auctionTitle #square {
+    margin-right: 29px;
+    width: 20px;
+    height: 20px;
+}
+.auctionTitleText {
+    font-family: NanumSquare;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+.hotItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 40px;
+}
+.hotItem #square {
+    width: 10px;
+    height: 40px;
+}
+.hotItem .hotItemText {
+    height: 29px;
+    font-family: NanumSquare;
+    font-weight: bold;
+    font-size: 26px;
+    color: #000000;
+}
+.hotItem .bestText{
+    width: 64px;
+    height: 29px;
+    margin-left: 20px;
+    font-family: NanumSquare;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.auctionItemWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#bututonWrapper {
+    height: 60px;
+}
