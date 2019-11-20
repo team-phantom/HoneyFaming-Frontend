@@ -33,6 +33,14 @@
             <div class="category">내가 구매한 상품</div>
         </div>
     </div>
+    <div id="arModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">x</span>
+            <p>Some text in the Modal..</p>
+        </div>
+    </div>
+
     <div class="auctionRegistWrapper">
         <div class="headerAr">
             <li><img src="./img/headerlogo.png" alt=""><span>경매하기</span></li>
@@ -42,7 +50,7 @@
             <div class="productImage">
                 <h2>상품 사진</h2>
                 <div>
-                    <button>사진 첨부하기</button>
+                    <button id="arImageBtn">사진 첨부하기</button>
                 </div>
             </div>
             <div class="productInfo">
@@ -54,9 +62,9 @@
                     <input type="text" placeholder="경매 초기가를 입력하세요">
                     <span>배송비 여부를 선택해주세요</span><br>
                     <div class="shipping">
-                        <div>배송비 포함</div>
-                        <div>배송비 제외</div>
-                        <div>추후 협외</div>
+                        <div class="shippingOption">배송비 포함</div>
+                        <div class="shippingOption">배송비 제외</div>
+                        <div class="shippingOption">추후 협외</div>
                     </div>
                     <span>경매 마감일</span><br>
                     <div class="auctionFinish">
@@ -83,5 +91,7 @@
             <button>등록하기</button>
         </div>
     </div>
+
+    <script src="./auction_regist.js"></script>
 </body>
 </html>
