@@ -1,0 +1,115 @@
+/*기본적인 것*/
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.auction_Main {
+    margin-left: 325px;
+    margin-top: 200px;
+    clear: both;
+}
+.auctionTitle {
+    margin-bottom: 40px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.auctionTitle img {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+}
+.auctionTitle #square {
+    margin-right: 29px;
+    width: 20px;
+    height: 20px;
+}
+.auctionTitleText {
+    font-family: NanumSquare;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+.auctionTitle #square {
+    background-color: #ffd600;
+    margin-right: 29px;
+    width: 20px;
+    height: 20px;
+}
+.hotItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 40px;
+}
+.hotItem .hotItemText {
+    height: 29px;
+    font-family: NanumSquare;
+    font-weight: bold;
+    font-size: 26px;
+    color: #000000;
+}
+.hotItem #square {
+    background-color: #ffd600;
+    margin-right: 29px;
+    width: 10px;
+    height: 40px;
+}
+/*기본적인 것*/
+/*buy.css*/
+.item_info_box {
+    width: 700px;
+    height: 680px;
+}
+.item_info_box--top {
+    width: 700px;
+    height: 80px;
+}
+.item_info_box--top .selector {
+    float: left;
+    display: inline-block;
+    border: solid 1px #e6e6e6;
+    text-align: center;
+    vertical-align: middle;
+    width: 350px;
+    line-height: 80px;
+    font-family: NanumSquare;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+.item_info_box--top .selector.left {
+    border-top-left-radius: 10px;
+}
+.item_info_box--top .selector.right {
+    border-top-right-radius: 10px;
+}
+.item_info_box--middle {
+    height: 480px;
+}
+.item_info_box--bottom {
+    border: 1px solid #e0e0e0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 120px;
+}
+.item_info_box--bottom_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    margin: 20px auto 0;
+}
+.item_info_box--bottom .arrow {
+    display: inline-block;
+}
+.item_info_box--bottom .item_image_list {
+    height: 80px;
+    width: 380px;
+    display: inline-block;
+}
+/*buy.css*/
