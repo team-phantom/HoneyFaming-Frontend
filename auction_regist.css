@@ -24,9 +24,17 @@
     border: 1px solid #888;
     width: 60%;
     height: 50%;
-    box-shadow: 2px 2px 2px 2px gray;
+    box-shadow: 2px 2px 2px 2px rgb(155, 153, 153);
 
 }
+
+.imgWrapper scrollbar-track {
+    border-radius: 10px;
+  }
+
+.imgWrapper scrollbar-thumb {
+    border-radius: 10px;
+  }
 
 /* The Close Button */
 .close {
@@ -42,6 +50,77 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.imgWrapper{
+    margin: 0 auto;
+    width: 80%;
+    height: 210px;
+    overflow-x: scroll;
+    white-space:nowrap
+}
+
+.imgWrapper li{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+.registBtn{
+    margin: 0 auto;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffd600;
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    line-height:50px;
+}
+
+.file_input{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 140px;
+}
+
+.file_input label {
+
+    position:relative;
+    cursor:pointer;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    width:140px;
+    height:40px;
+    border-radius: 7px;
+    background:#FFFF8D;
+    color:black;
+    font-weight: bold;
+    text-align:center;
+    line-height:40px;
+}
+.file_input label input {
+    position:absolute;
+    width:0;
+    height:0;
+    overflow:hidden;
+}
+.file_input input[type=text] {
+    vertical-align:middle;
+    display:inline-block;
+    width:350px;
+    height:30px;
+    line-height:30px;
+    font-size:11px;
+    padding:0;
+    border:0;
+    border:1px solid #777;
+}
+
 
 .headerAr{ 
     font-size: 30px;
@@ -82,12 +161,14 @@
 }
 
 .productImage div{
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .productImage button{
+    cursor: pointer;
     width: 380px;
   height: 80px;
   border: none;
@@ -106,7 +187,7 @@
 
 .productInfo{
     float: right;
-}
+}       
 
 .proInfoBox{
     box-sizing: border-box;
@@ -200,3 +281,4 @@ select{
     border-radius: 10px;  
     background-color: #ededed;
 }
+
