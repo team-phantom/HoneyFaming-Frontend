@@ -38,12 +38,6 @@ body {
   align-items: center;
 }
 
-#advertisement {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 #profile-image {
   margin-top: 20px;
   width: 70px;
@@ -56,10 +50,39 @@ body {
   margin-top: 15px;
 }
 
+#user-name:hover {
+  cursor: default;
+}
+
 .profile-menu {
-  margin-top: 20px;
+  margin-top: 15px;
   font-weight: bold;
   font-size: 14;
+  width: 130px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-menu:hover {
+  border-radius: 10px;
+  background-color: #a7a7a7;
+  width: 130px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#advertisement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+}
+
+#advertisement:hover {
+  height: 40px;
 }
 
 .profile-menu :nth-child(0) {
@@ -84,6 +107,10 @@ body {
   display: inline-flex;
 }
 
+#main-logo:hover {
+  cursor: pointer;
+}
+
 #side-bar {
   width: 130px;
   height: 100%;
@@ -100,11 +127,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 45px;
-  opacity: 0.5;
-  border-radius: 10px;
-  background-color: #a7a7a7;
 }
 
 #side-profile {
@@ -134,6 +156,12 @@ body {
   background-color: #edc4ff;
 }
 
+#auc-shortcut {
+  width: 380px;
+  height: 80px;
+  background-color: #ec3849;
+}
+
 #main-logo {
   width: 75px;
   height: 75px;
@@ -153,6 +181,14 @@ body {
   font-style: normal;
   line-height: 1.14;
   color: #ff8800;
+}
+
+.category:hover {
+  width: 130px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #ffff8d;
+  cursor: pointer;
 }
 
 #logo-title {
